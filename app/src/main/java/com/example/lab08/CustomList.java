@@ -15,17 +15,17 @@ public class CustomList {
     }
 
 
-//    public boolean hasCity(City city) {
-//        return cities.contains(city);
-//    }
-//
-//    public void deleteCity(City city) {
-//        if (cities.contains(city)) {
-//            cities.remove(city);
-//        }
-//    }
-//
-//    public int countCities() {
-//        return cities.size();
-//    }
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
+
+    public void deleteCity(City city) {
+        if (cities.contains(city)) {
+            cities.remove(city);
+        }
+    }
+
+    public int countCities() {
+        return cities.size();
+    }
 }
