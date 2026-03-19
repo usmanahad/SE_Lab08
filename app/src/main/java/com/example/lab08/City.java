@@ -8,7 +8,7 @@ public class City {
         this.city = city;
         this.province = province;
     }
-
+    // lowkey i just be adding shi
     public String getCityName(){
         return this.city;
     }
